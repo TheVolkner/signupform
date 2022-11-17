@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/custom.css" />
+  </head>
+  <body class="bg">
+    <div class="container">
+      <div class="row d-flex .flex-column align-items-center mt-lg-3">
+        <!--Panel Izquierdo-->
+        <div class="col-12 col-lg-6">
+          <div class="text-light text-center text-lg-start lh-1 m-5 fw-bolder fs-1">
+            Learn to code by watching others
+          </div>
+          <div class="text-light text-center text-lg-start m-5 lh-base justificado">
+            See how experienced developers solve problems in real-time. Watching
+            scripted tutorials is great, but understanding how developers thinks
+            is invaluable
+          </div>
+        </div>
+        <!--Panel Derecho-->
+        <div class="col-12 col-lg-6 d-grid gap-2 mx-auto">
+          <button
+            class="btn btn-primary shadow p-4 p-lg-0 mb-5 mb-lg-2 mt-lg-5"
+            type="button"
+          >
+            <span class="fw-bold">Try it free 7 days</span> then <br />
+            $20/mo. thereafter
+          </button>
+          <div class="card my-3">
+            <div class="card-body d-grid gap-2">
+              <div class="alert alert-primary alerta" role="alert" id="alertaCarta">
+                Recuerde ingresar una contraseña de 8 a 16 carácteres. Incluyendo sólo caracteres alfanuméricos.
+              </div>
+              <form id="formUser">
+                <div class="mb-4">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="campoNombre"
+                    placeholder="First Name"
+                    required
+                  />
+                </div>
+                <div class="mb-4">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="campoApellido"
+                    placeholder="Last Name"
+                    required
+                  />
+                </div>
+                <div class="mb-4">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="campoEmail"
+                    placeholder="Email Address"
+                    required
+                  />
+                </div>
+                <div class="mb-4">
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="campoPassword"
+                    placeholder="Password"
+                    required
+                  />
+                </div>
+                <div class="d-grid gap-2">
+                  <input type="submit" id="btnEnviar" class="btn btn-success shadow text-light" value="CLAIM YOUR FREE TRIAL">
+                </div>
+                <div class="my-2">
+                  <p class="text-secondary text-center">
+                    By clicking the button, you are agreeding to our
+                    <a href="#" class="d-inline enlace text-warning fw-bold"
+                      >Terms and Services</a
+                    >
+                  </p>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/validacion.js"></script>
+  </body>
+</html>
