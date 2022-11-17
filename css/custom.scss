@@ -1,0 +1,57 @@
+//Modificaciones acá.
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+//MODIFICANDO ESTILO DE LETRA DE LA PAGINA.
+$font-family-sans-serif: "Poppins";
+
+//MODIFICANDO COLORES.
+$primary: hsl(248, 32%, 49%);
+$success:  hsl(154, 59%, 51%);
+$secondary:hsl(246, 25%, 77%);
+$warning: hsl(0, 100%, 74%);
+//ACTIVANDO SOMBRAS POR DEFECTO EN COMPONENTES.
+$enable-shadows:true;
+
+//MODIFICANDO LINK
+.enlace{
+
+   text-decoration: none;
+}
+
+//POR DEFECTO, LA ALERTA ANTE UN CAMPO INCORRECTO O CONTRASEÑA MAL ESTABLECIDA ESTARA INVISIBLE.
+.alerta{
+
+    display:none;
+}
+
+//INDICANDO LETRA NEGRITA EN LOS PLACEHOLDERS DE LOS INPUTS.
+input::placeholder{
+
+    font-weight: bolder;
+}
+
+//MODIFICANDO DESPLIEGUE DE LINK
+
+
+//INDICANDO LETRA NEGRITA GROSOR 700 EN EL TITULO.
+.titulo{
+
+    font-weight: 700;
+
+}
+
+
+//INDICAMOS EL BACKGROUND CON LA IMAGEN.
+.bg{
+
+    background-image: url(/images/bg-intro-desktop.png);
+    background-repeat: repeat;
+    max-width: 100%;
+    height: auto;
+    background-color: $warning;
+
+}
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
