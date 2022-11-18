@@ -25,7 +25,7 @@ input::placeholder {
 }
 
 .bg {
-  background-image: url(https://github.com/TheVolkner/signupform/blob/main/images/bg-intro-desktop.png);
+  background-image: url(/images/bg-intro-desktop.png);
   background-repeat: repeat;
   max-width: 100%;
   height: auto;
